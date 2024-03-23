@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Note & Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><i>"Notes & Password Manager"</i></h1>
+    <div class="container">
+        <div class="notes-section">
+            <h2>My Notes</h2>
+            <ul id="notes-list"></ul>
+            <form id="note-form">
+                <textarea id="note-input" placeholder="Enter your note..."></textarea>
+                <button type="submit">Add Note</button>
+            </form>
+        </div>
+        <div class="passwords-section">
+            <h2>Password Manager</h2>
+            <ul id="password-list"></ul>
+            <form id="password-form">
+                <input type="text" id="website-input" placeholder="Website">
+                <input type="text" id="username-input" placeholder="Username">
+                <input type="password" id="password-input" placeholder="Password">
+                <button type="submit">Add Password</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

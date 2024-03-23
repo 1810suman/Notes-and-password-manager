@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7cccc;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f38e8e;
+    box-shadow: 0 2px 5px rgba(95, 26, 26, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.notes-section,
+.passwords-section {
+    display: inline-block;
+    width: 48%; /* Adjust width as needed */
+    vertical-align: top;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+.notes-section {
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+form {
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #1157a1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1157a1;
+}
